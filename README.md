@@ -30,6 +30,33 @@ print(typeof(12345.67))
 
 Afterwards, we learnt about Vectors and operations on Vectors in R.
 
+``` r
+x <- c(1, 2, 3, 4, 5)
+y <- c(1, 2, 3, 4, 5)
+
+print(x+y)
+```
+
+    ## [1]  2  4  6  8 10
+
+``` r
+print(x*y)
+```
+
+    ## [1]  1  4  9 16 25
+
+``` r
+print(x-y)
+```
+
+    ## [1] 0 0 0 0 0
+
+``` r
+print(x/y)
+```
+
+    ## [1] 1 1 1 1 1
+
 ## Description of the Dataset
 
 We selected the EuStockMarkets dataset from the built-in datasets
@@ -71,7 +98,7 @@ for (i in seq_len(ncol(EuStockMarkets))) {
 }
 ```
 
-![](cia_001_files/figure-markdown_github/plot-1.png)
+![Graph of Stock Prices](plot-1.png)
 
 ## Data Dictionary
 
